@@ -1,0 +1,47 @@
+.chat-main
+  .group
+    %ul.group__right-box
+      %li.group__right-box__name
+        test
+      %li.group__right-box__member
+        Member:name
+    =link_to "/" do
+      .group__left-box
+        Edit
+
+
+  .chat-main__message
+    %ul.message__date
+      %li.message__date__user
+        名前
+      %li.message__date__daytime
+        2020/01/33(Mon)25:00:00
+    .chat-main__message__comments
+      いいいいいいいいいい
+
+    %ul.message__date
+      %li.message__date__user
+        名前
+      %li.message__date__daytime
+        2020/01/33(Mon)25:00:00
+    .chat-main__message__comments
+      いいいいいいいいいい
+    
+    %ul.message__date
+      %li.message__date__user
+        名前
+      %li.message__date__daytime
+        2020/01/33(Mon)25:00:00
+    .chat-main__message__comments
+      いいいいいいいいいい
+
+
+  .chat-main__form
+    %form.new-message
+      .new-message__box
+        %input{type: "text", class:"box__text", placeholder: "type a message"} 
+        %label{class: "box__image"}
+          %i.fa.fa-image
+          %input{type:"file", class:"box__image__file"}
+      %input{type:"submit", class: "submit-btn"}
+          

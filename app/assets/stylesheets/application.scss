@@ -13,8 +13,19 @@
  *= require_tree .
  *= require_self
  */
+ * {
+    box-sizing: border-box;
+  }
+
+a {
+    text-decoration: none;
+}
+
+
 @import "./reset";
-@import "./messages";
+@import "./side-bar";
+@import "./main";
+
 
 @import "font-awesome-sprockets";
 @import "./font-awesome";
