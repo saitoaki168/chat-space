@@ -23,9 +23,12 @@ a {
 
 
 @import "./reset";
+@import "config/colors";
+@import "modules/flash";
+
 @import "./side-bar";
 @import "./main";
 
-
 @import "font-awesome-sprockets";
 @import "./font-awesome";
+@import "modules/user";
