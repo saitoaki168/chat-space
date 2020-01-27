@@ -43,6 +43,7 @@
         height: calc(100vh - 190px);
         width: 100%;
         padding: 35px 0 0 40px;
+        overflow: scroll;
 
         .message__date {
             display: flex;

@@ -21,4 +21,4 @@
         = f.label :image, class: 'box__image' do
           %i.fa.fa-image
           = f.file_field :image, class: 'box__image__file'
-      = f.submit 'Send', class: 'submit-btn'
+      = f.submit 'Send', class: 'submit-btn', "data-disable-with": false
