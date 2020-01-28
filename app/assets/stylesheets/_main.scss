@@ -48,7 +48,7 @@
         .message {
             padding-bottom: 46px;
             
-            .message__date {
+            &__date {
                 display: flex;
                 padding-bottom: 12px;
                 &__user {
